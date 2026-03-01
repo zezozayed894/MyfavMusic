@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zezoz\\source\\repos\\Music\\Music.WebSite\\Music.WebSite.csproj",
+      "projectUniqueName": "C:\\Users\\zezoz\\OneDrive\\Documents\\GitHub\\MyfavMusic\\Music\\Music.WebSite\\Music.WebSite.csproj",
       "projectName": "Music.WebSite",
-      "projectPath": "C:\\Users\\zezoz\\source\\repos\\Music\\Music.WebSite\\Music.WebSite.csproj",
+      "projectPath": "C:\\Users\\zezoz\\OneDrive\\Documents\\GitHub\\MyfavMusic\\Music\\Music.WebSite\\Music.WebSite.csproj",
       "packagesPath": "C:\\Users\\zezoz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zezoz\\source\\repos\\Music\\Music.WebSite\\obj\\",
+      "outputPath": "C:\\Users\\zezoz\\OneDrive\\Documents\\GitHub\\MyfavMusic\\Music\\Music.WebSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zezoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
