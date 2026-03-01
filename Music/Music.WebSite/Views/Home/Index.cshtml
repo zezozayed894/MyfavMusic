@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Song</title>
+
+    <style>
+        body {
+            background-color: #0f172a;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 30px;
+            color: #38bdf8;
+        }
+
+        iframe {
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+        }
+
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: #38bdf8;
+            margin: 40px auto;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎵 My Favorite Song</h1>
+
+    <!-- YouTube Embedded Video -->
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/F2RnxZnubCM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+
+    <!-- Animated Box -->
+    <div id="box"></div>
+
+    <script>
+        let box = document.getElementById("box");
+        let position = 0;
+        let direction = 1;
+
+        function animateBox() {
+            position += direction * 2;
+            box.style.left = position + "px";
+
+            if (position > 200 || position < 0) {
+                direction *= -1;
+            }
+
+            requestAnimationFrame(animateBox);
+        }
+
+        animateBox();
+    </script>
+
+</body>
+</html>
